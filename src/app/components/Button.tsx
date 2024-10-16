@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Button = () => {
   return (
@@ -7,9 +8,10 @@ const Button = () => {
     <button className='bg-yellow-300 font-serif text-black p-4 hover:bg-slate-300'>
         See Our Classes
     </button>
-    <button className='bg-yellow-300 text-black font-serif p-4 ml-7 hover:bg-slate-300'>
+    <button className='bg-yellow-300 font-serif text-black p-4 hover:bg-slate-300' >
         See Our Trainers
     </button>
+
     </div> 
 </main>
   )
